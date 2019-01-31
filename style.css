@@ -1,0 +1,26 @@
+body{
+    margin: 0 400px;
+}
+
+.head-container{
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+.body-container{
+    padding: 20px 40px;
+}
+
+input[type="number"] {
+    width: 274px;
+    height: 40px;
+    padding: 0px 40px;
+    margin: 0 40px;
+}
+
+.card {
+    border: 1px solid cadetblue;
+    width: 320px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}

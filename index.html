@@ -11,18 +11,24 @@
     <div class="head-container">
         <h1>Weight Converter</h1>
     </div>
-    <div class="body-container">
-        <input type="number" placeholder="Enter Pounds.....">
+    <input type="number" placeholder="Enter Pounds....." id="lbsinput">
+    <div class="body-container" id='bodyOutput'>
         <div class="card">
-            <h4>Kg: </h4>
+            <h4>Kilograms: </h4>
+            <div id='kgOutput'>
+            </div>
         </div>
         <div class="card">
             <h4>Ounces: </h4>
+            <div id='ouncesOutput'></div>
         </div>
         <div class="card">
-            <h4>Kg: </h4>
+            <h4>Grams: </h4>
+            <div id='gmsOutput'></div>
         </div>
     </div>
-</body>
 
+    <!--JAVASCRIPT TAGS-->
+    <script src='./script.js'></script>
+</body>
 </html>
